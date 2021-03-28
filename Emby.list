@@ -6,5 +6,6 @@ DOMAIN-SUFFIX,kozow.com,Emby
 DOMAIN-SUFFIX,mickeycloud.com,Emby
 DOMAIN-SUFFIX,neko.re,Emby
 DOMAIN-SUFFIX,emby.media,Emby
+DOMAIN-SUFFIX,jmsooo.com,Emby
 IP-CIDR,193.122.126.235/32,no-resolve
 IP-CIDR,163.172.41.22/32,no-resolve
