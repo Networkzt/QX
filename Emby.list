@@ -1,5 +1,5 @@
 # NAME: Emby
-# UPDATE: 2021-4-14
+# UPDATE: 2021-4-19
 DOMAIN-SUFFIX,emby.wtf,Emby
 DOMAIN-SUFFIX,plusmedia.site,Emby
 DOMAIN-SUFFIX,kozow.com,Emby
@@ -9,7 +9,9 @@ DOMAIN-SUFFIX,emby.media,Emby
 DOMAIN-SUFFIX,jmsooo.com,Emby
 DOMAIN-SUFFIX,edu.rs,Emby
 DOMAIN-SUFFIX,youremby.gq,Emby
+DOMAIN-SUFFIX,otakudrive.life,Emby
 IP-CIDR,193.122.126.235/32,no-resolve
 IP-CIDR,163.172.41.22/32,no-resolve
 IP-CIDR,42.3.30.98/32,no-resolve
 IP-CIDR,172.67.215.90/32,no-resolve
+IP-CIDR,42.3.30.38/32,no-resolve
