@@ -15,4 +15,4 @@ IP-CIDR,163.172.41.22/32,no-resolve
 IP-CIDR,42.3.30.98/32,no-resolve
 IP-CIDR,172.67.215.90/32,no-resolve
 IP-CIDR,42.3.30.38/32,no-resolve
-IP-CIDR,220.135.118.24/32,no-resolve
+#IP-CIDR,220.135.118.24/32,no-resolve
