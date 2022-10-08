@@ -1,23 +1,17 @@
+/**
+ * @description
+ * 如果是家里WI-FI则开启直连模式
+ * 如果不是家里WI-FI则开启代理模式
+ */
 const WIFI_DONT_NEED_PROXYS = ['Home_5G'];
-const CURRENT_WIFI_SSID_KEY = 'current_wifi_ssid';
 
-if (wifiChanged()) {
-  const mode = WIFI_DONT_NEED_PROXYS.includes($network.wifi.ssid)
-    ? 'direct'
-    : 'rule';
-  $surge.setOutboundMode(mode);
-  $notification.post(
-    'Surge',
-    `Wi-Fi changed to ${$network.wifi.ssid || 'cellular'}`,
-    `use ${mode} mode`
-  );
-}
-
-function wifiChanged() {
-  const currentWifiSSid = $persistentStore.read(CURRENT_WIFI_SSID_KEY);
-  const changed = currentWifiSSid !== $network.wifi.ssid;
-  changed && $persistentStore.write($network.wifi.ssid, CURRENT_WIFI_SSID_KEY);
-  return changed;
+if (WIFI_DONT_NEED_PROXYS.includes($network.wifi.ssid)) {
+  $surge.setOutboundMode('direct');
+  $notification.post('Surge', 'Wi-Fi changed', 'use direct mode');
+} else {
+  $surge.setSelectGroupPolicy('Final-select', 'Group');
+  $surge.setOutboundMode('rule');
+  $notification.post('Surge', 'Wi-Fi changed', 'use rule-based proxy mode');
 }
 
 $done();
