@@ -1,5 +1,4 @@
 const WIFI_DONT_NEED_PROXYS = ['Home_5G'];
-const WIFI_DONT_NEED_PROXYS = ['Home'];
 const CURRENT_WIFI_SSID_KEY = 'current_wifi_ssid';
 
 if (wifiChanged()) {
