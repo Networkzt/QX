@@ -1,0 +1,16 @@
+# > BanAmapAD
+DOMAIN,u51.me,AdBlock
+DOMAIN,logs.amap.com,AdBlock
+DOMAIN,icloud-amap.com,AdBlock
+DOMAIN,apiinit.amap.com,AdBlock
+DOMAIN,aboard.apilocate.amap.com,AdBlock
+DOMAIN-KEYWORD,ossgw.alicdn.com,AdBlock
+DOMAIN-SUFFIX,dualstack-logs.amap.com,AdBlock
+DOMAIN-SUFFIX,logs.amap.com,AdBlock
+DOMAIN-SUFFIX,optimus-ads.amap.com,AdBlock
+DOMAIN-SUFFIX,page.amap.com,AdBlock
+DOMAIN,optimus-ads.amap.com,AdBlock
+DOMAIN,optimus-ads.amap.com.w.alikunlun.com,AdBlock
+DOMAIN-SUFFIX,shouji.sougou.com,AdBlock
+DOMAIN-SUFFIX,adiu.amap.com,AdBlock
+DOMAIN-SUFFIX,u51.me,AdBlock
